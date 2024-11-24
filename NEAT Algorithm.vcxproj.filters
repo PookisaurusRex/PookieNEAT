@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NEAT">
+      <UniqueIdentifier>{20c27141-d4b0-44d4-bdf2-87428f83660d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NEAT">
+      <UniqueIdentifier>{f206d375-4317-4005-8a6f-453bb17db95a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NEAT.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Activations.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Aggregations.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Config.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Genes.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Genome.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Math.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Mutations.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Network.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Reproduction.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Species.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Trainer.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Utils.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Reporters.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Array.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Map.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Types.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\Genotype.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\ExampleTrainers.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="NEAT\BuySellStockTrainer.h">
+      <Filter>Header Files\NEAT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Config.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Genome.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Mutations.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Network.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Reproduction.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Species.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Trainer.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Utils.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Reporters.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="NEAT\Genotype.cpp">
+      <Filter>Source Files\NEAT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
